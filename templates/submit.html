@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Page</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    background: url("https://tse3.mm.bing.net/th?id=OIP.kNMPgb8IpPtQftaPT5k9QwHaEo&pid=Api&P=0&h=180") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background: url("https://tse2.mm.bing.net/th?id=OIP.4REUqljUtklqemYeyqfSvAHaEK&pid=Api&P=0&h=180");
+            color: #333;
+        }
+
+        .result-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 18px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fraud Detection Result</h1>
+    <div class="result-container">
+        <h2>Result:</h2>
+        <p>The transaction is {{ prediction }}</p>
+    </div>
+</body>
+</html>
